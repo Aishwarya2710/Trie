@@ -37,7 +37,7 @@ public class Trie
         root.insert("hello");
         root.insert("try");
         root.insert("tries");
-        boolean res = root.isWord("tries");
-        System.out.println(res);
+        boolean result = root.isWord("tries");
+        System.out.println(result);
     }
 }
